@@ -32,7 +32,7 @@ It can be used **without** browser plugins, extensions, or installations. It's J
 JavaScript&trade;. Note: WebTorrent does **not** support UDP/TCP peers in browser.
 
 Simply include the
-[`webtorrent.min.js`](https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js) script
+[`webtorrent.min.js`](https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js) script
 on your page to start fetching files over WebRTC using the BitTorrent protocol, or
 `require('webtorrent')` with [browserify](http://browserify.org/). See [demo apps
 ](#webtorrent-in-production) and [code examples](#usage) below.
@@ -50,6 +50,11 @@ or [Instant.io](https://instant.io/), a website. Established torrent clients lik
 they can connect to both normal *and* web peers. We hope other clients will follow.
 
 ![Network](https://webtorrent.io/img/network.png)
+
+### Open Source Sponsors
+
+[<img src='https://webtorrent.io/img/supporters/popchest.png' width=300>](https://popchest.com) | [<img src='https://webtorrent.io/img/supporters/brave.png' width=300>](https://brave.com)
+|---|---|
 
 ### Features
 
@@ -212,7 +217,7 @@ The WebTorrent script is also hosted on fast, reliable CDN infrastructure (Cloud
 MaxCDN) for easy inclusion on your site:
 
 ```html
-<script src="https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js"></script>
 ```
 
 #### In Node.js
@@ -303,9 +308,9 @@ These are the main modules that make up WebTorrent:
 [bittorrent-dht-ni]: https://img.shields.io/npm/v/bittorrent-dht.svg
 [bittorrent-dht-nu]: https://www.npmjs.com/package/bittorrent-dht
 
-[bittorrent-peerid]: https://github.com/fisch0920/bittorrent-peerid
-[bittorrent-peerid-ti]: https://img.shields.io/travis/fisch0920/bittorrent-peerid.svg
-[bittorrent-peerid-tu]: https://travis-ci.org/fisch0920/bittorrent-peerid
+[bittorrent-peerid]: https://github.com/webtorrent/bittorrent-peerid
+[bittorrent-peerid-ti]: https://img.shields.io/travis/webtorrent/bittorrent-peerid.svg
+[bittorrent-peerid-tu]: https://travis-ci.org/webtorrent/bittorrent-peerid
 [bittorrent-peerid-ni]: https://img.shields.io/npm/v/bittorrent-peerid.svg
 [bittorrent-peerid-nu]: https://www.npmjs.com/package/bittorrent-peerid
 
@@ -357,9 +362,9 @@ These are the main modules that make up WebTorrent:
 [ut_metadata-ni]: https://img.shields.io/npm/v/ut_metadata.svg
 [ut_metadata-nu]: https://www.npmjs.com/package/ut_metadata
 
-[ut_pex]: https://github.com/fisch0920/ut_pex
-[ut_pex-ti]: https://img.shields.io/travis/fisch0920/ut_pex.svg
-[ut_pex-tu]: https://travis-ci.org/fisch0920/ut_pex
+[ut_pex]: https://github.com/webtorrent/ut_pex
+[ut_pex-ti]: https://img.shields.io/travis/webtorrent/ut_pex.svg
+[ut_pex-tu]: https://travis-ci.org/webtorrent/ut_pex
 [ut_pex-ni]: https://img.shields.io/npm/v/ut_pex.svg
 [ut_pex-nu]: https://www.npmjs.com/package/ut_pex
 
@@ -386,6 +391,7 @@ localStorage.removeItem('debug')
 
 ### Talks about WebTorrent
 
+- May 2017 (Char.la - Spanish) - [WebTorrent and Peerify](https://youtu.be/D-04vg5hvEQ?t=54m20s)
 - May 2015 (Data Terra Nemo) - [WebTorrent: Mother of all demos](https://www.youtube.com/watch?v=RRtNEcAaUO8)
 - Nov 2014 (JSConf Asia) - [How WebTorrent Works](https://www.youtube.com/watch?v=kxHRATfvnlw)
 - Sep 2014 (NodeConf EU) – [WebTorrent Mad Science](https://www.youtube.com/watch?v=BVBXkzVjvPc) (first working WebTorrent demo)

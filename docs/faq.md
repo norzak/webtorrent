@@ -102,6 +102,8 @@ WebTorrent is still pretty new, but it's already being used in cool ways:
 - **[Rakam][rakam]** - A minimalist WebTorrent video player
 - **[Tcloud][tcloud]** - File sharing and torrent downloading
 - **[Webtorrent-webui][webtorrent-webui]** - A WebTorrent client with a simple web interface for easy remote usage
+- **[CineTimes][cinetimes]** - A streaming website of public domain movies
+- **[Bitlove.org][bitlove]** - Your favorite podcasts via BitTorrent
 - ***Your app here – [Send a pull request][pr] with your URL!***
 
 #### WebTorrent Product Alternatives
@@ -178,6 +180,8 @@ There's also a list of WebTorrent-powered alternatives to centralized services h
 [rakam]: https://rakam.ga
 [tcloud]: https://github.com/Lunik/tcloud
 [webtorrent-webui]: https://github.com/pldubouilh/webtorrent-webui
+[cinetimes]: http://cinetimes.org/
+[bitlove]: https://bitlove.org/
 
 ## How does WebTorrent work?
 
