@@ -16,7 +16,6 @@
   <a href="https://www.npmjs.com/package/webtorrent"><img src="https://img.shields.io/npm/v/webtorrent.svg" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/webtorrent"><img src="https://img.shields.io/npm/dm/webtorrent.svg" alt="npm downloads"></a>
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide"></a>
-  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/webtorrent/webtorrent.svg" alt="Greenkeeper badge"></a>
 </p>
 <br>
 
@@ -35,7 +34,9 @@ Simply include the
 [`webtorrent.min.js`](https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js) script
 on your page to start fetching files over WebRTC using the BitTorrent protocol, or
 `require('webtorrent')` with [browserify](http://browserify.org/). See [demo apps
-](#webtorrent-in-production) and [code examples](#usage) below.
+](#who-is-using-webtorrent-today) and [code examples](#usage) below.
+
+[![jsdelivr download count](https://data.jsdelivr.com/v1/package/npm/webtorrent/badge)](https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js)
 
 To make BitTorrent work over WebRTC (which is the only P2P transport that works on the
 web) we made some protocol changes. Therefore, a browser-based WebTorrent client or **"web
@@ -103,7 +104,7 @@ To install a `webtorrent`
 npm install webtorrent-cli -g
 ```
 
-To install a WebTorrent desktop appliation for Mac, Windows, or Linux, see
+To install a WebTorrent desktop application for Mac, Windows, or Linux, see
 [WebTorrent Desktop][webtorrent-desktop].
 
 ### Ways to help
@@ -263,7 +264,21 @@ There are many supported streaming options:
 --stdout                standard out [implies --quiet]
 ```
 
-In addition to magnet uris, webtorrent supports [many ways](docs/api.md#clientaddtorrentid-opts-function-ontorrent-torrent-) to specify a torrent.
+In addition to magnet uris, WebTorrent supports [many ways](docs/api.md#clientaddtorrentid-opts-function-ontorrent-torrent-) to specify a torrent.
+
+### Talks about WebTorrent
+
+- Sep 2017 - Nordic JS - [Get Rich Quick With P2P Crypto Currency](https://www.youtube.com/watch?v=8N_4Furztjo)
+- May 2017 - Char.la - [WebTorrent and Peerify](https://youtu.be/D-04vg5hvEQ?t=54m20s) (Spanish)
+- Nov 2016 - NodeConf Argentina - [Real world Electron: Building Cross-platform desktop apps with JavaScript](https://www.youtube.com/watch?v=YLExGgEnbFY)
+- May 2016 - SIGNAL Conference - [BitTorrent in the Browser](https://www.youtube.com/watch?v=2qrUx-C5Np4)
+- May 2015 - Data Terra Nemo - [WebTorrent: Mother of all demos](https://www.youtube.com/watch?v=RRtNEcAaUO8)
+- May 2015 - Data Terra Nemo - [WebRTC Everywhere](https://www.youtube.com/watch?v=RRtNEcAaUO8)
+- Nov 2014 - JSConf Asia - [How WebTorrent Works](https://www.youtube.com/watch?v=kxHRATfvnlw)
+- Sep 2014 - NodeConf EU - [WebRTC Mad Science](https://www.youtube.com/watch?v=BVBXkzVjvPc) (first working WebTorrent demo)
+- Apr 2014 - CraftConf - [Bringing BitTorrent to the Web](https://www.youtube.com/watch?v=PT8s_IVWDgw)
+- May 2014 - JS.LA - [How I Built a BitTorrent Client in the Browser](https://vimeo.com/97324247) (progress update; node client working)
+- Oct 2013 - RealtimeConf - [WebRTC Black Magic](https://vimeo.com/77265280) (first mention of idea for WebTorrent)
 
 ### Modules
 
@@ -388,15 +403,6 @@ Disable by running this:
 ```js
 localStorage.removeItem('debug')
 ```
-
-### Talks about WebTorrent
-
-- May 2017 (Char.la - Spanish) - [WebTorrent and Peerify](https://youtu.be/D-04vg5hvEQ?t=54m20s)
-- May 2015 (Data Terra Nemo) - [WebTorrent: Mother of all demos](https://www.youtube.com/watch?v=RRtNEcAaUO8)
-- Nov 2014 (JSConf Asia) - [How WebTorrent Works](https://www.youtube.com/watch?v=kxHRATfvnlw)
-- Sep 2014 (NodeConf EU) – [WebTorrent Mad Science](https://www.youtube.com/watch?v=BVBXkzVjvPc) (first working WebTorrent demo)
-- May 2014 (JS.LA) – [How I Built a BitTorrent Client in the Browser](https://vimeo.com/97324247) (progress update; node client working)
-- Oct 2013 (RealtimeConf) – [WebRTC Black Magic](https://vimeo.com/77265280) (first mention of idea for WebTorrent)
 
 ### License
 
