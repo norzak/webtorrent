@@ -1,6 +1,5 @@
 /* global FileList */
 
-const { Buffer } = require('safe-buffer')
 const { EventEmitter } = require('events')
 const concat = require('simple-concat')
 const createTorrent = require('create-torrent')
@@ -153,6 +152,7 @@ class WebTorrent extends EventEmitter {
   }
 
   get downloadSpeed () { return this._downloadSpeed() }
+
   get uploadSpeed () { return this._uploadSpeed() }
 
   get progress () {
@@ -297,7 +297,7 @@ class WebTorrent extends EventEmitter {
     let streams
 
     if (isFileList(input)) input = Array.from(input)
-    else if (!Array.isArray(input)) input = [ input ]
+    else if (!Array.isArray(input)) input = [input]
 
     parallel(input.map(item => cb => {
       if (isReadable(item)) concat(item, cb)

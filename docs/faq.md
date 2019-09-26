@@ -111,6 +111,7 @@ WebTorrent is still pretty new, but it's already being used in cool ways:
 - **[Bugout][Bugout]** - build and run back-end web services in a browser tab.
 - **[P2P Media Loader][p2p-media-loader]** - engine for Hls.js and Shaka Player that enables P2P sharing of live and VOD streams over HLS or DASH protocols.
 - **[Cheff][Cheff]** - Share food recipes between your devices. [source code](https://github.com/vasco3/cheff)
+- **[Hubzilla](https://hubzilla.org)** - WebTorrent player integration into posts ([source code](https://github.com/demitas-ace/wtplayer/tree/master/wtplayer))
 - ***Your app here – [Send a pull request][pr] with your URL!***
 
 #### WebTorrent Product Alternatives
@@ -230,7 +231,7 @@ clients like Transmission, and uTorrent to add support for WebTorrent. **Vuze**
 ## How do I get started?
 
 To start using WebTorrent, simply include the
-[`webtorrent.min.js`](https://cdn.jsdelivr.net/webtorrent/latest/webtorrent.min.js)
+[`webtorrent.min.js`](https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js)
 script on your page. If you use [browserify](http://browserify.org/), you can
 `npm install webtorrent` and `require('webtorrent')`.
 
@@ -402,7 +403,7 @@ IRC at `#webtorrent` (freenode) and how you can get started.
 
 
 [open-issues]: https://github.com/webtorrent/webtorrent/issues?state=open
-[contributing]: https://github.com/webtorrent/webtorrent/blob/master/CONTRIBUTING.md
+[contributing]: https://github.com/webtorrent/.github/blob/master/CONTRIBUTING.md
 
 ## Where can I learn more?
 
